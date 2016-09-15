@@ -1,0 +1,7 @@
+/etc/X11/xorg.conf.d/70-synaptics.conf
+~/.config/i3/config
+~/.config/termite/config
+~/.bash_profile
+~/.bashrc
+~/.i3blocks.conf
+~/.vim/vimrc
