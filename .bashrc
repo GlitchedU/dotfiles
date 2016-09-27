@@ -19,6 +19,7 @@ alias cow?='whatis $(ls /bin | shuf -n 1) | cowsay'
 # stream animated text star wars
 alias starwars='telnet towel.blinkenlights.nl'
 alias man='vman'
+alias mman='command man'
 alias archey='archey3'
 alias python='python2'
 
