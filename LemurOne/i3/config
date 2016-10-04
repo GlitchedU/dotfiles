@@ -255,6 +255,10 @@ bindsym $sup+m exec google-chrome-stable --app=https://netflix.com
 # Lock
 bindsym $sup+x exec lock
 
+# Qutebrowser
+bindsym $sup+u exec qutebrowser
+bindsym $sup+shift+u workspace $workspace4; exec qutebrowser
+
 
 
 ######################
