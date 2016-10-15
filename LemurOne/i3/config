@@ -127,11 +127,11 @@ bindsym $sup+9 workspace $workspace9
 bindsym $sup+0 workspace $workspace10
 
 # move to next/prev workspace
-bindsym $sup+comma workspace prev
-bindsym $sup+period workspace next
+bindsym $sup+Tab workspace next 
+bindsym $sup+shift+Tab workspace prev
 
 # move between last used workspace
-bindsym $sup+Tab workspace back_and_forth
+bindsym $sup+Control+Tab workspace back_and_forth
 
 # move focused container to workspace
 bindsym $sup+Shift+1 move container to workspace $workspace1
