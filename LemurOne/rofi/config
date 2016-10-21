@@ -1,0 +1,10 @@
+! "Color scheme for normal row" Set from: Default
+rofi.color-normal:                   #f4bf75,#3f3f3f,#a6e22e,#f92672,#f9f8f5
+! "Color scheme for urgent row" Set from: Default
+rofi.color-urgent:                   #fdf6e3,#dc322f,#eee8d5,#dc322f,#fdf6e3
+! "Color scheme for active row" Set from: Default
+rofi.color-active:                   #fdf6e3,#268bd2,#eee8d5,#268bd2,#fdf6e3
+! "Color scheme window" Set from: Default
+rofi.color-window:                   #f4bf75,#f4bf75
+! "Separator style (none, dash, solid)" Set from: Default
+rofi.separator-style:                dash
