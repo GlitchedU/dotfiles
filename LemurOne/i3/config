@@ -247,7 +247,7 @@ bindsym XF86AudioRaiseVolume exec pactl set-sink-mute 0 false; exec pactl set-si
 bindsym XF86AudioPlay exec cmus-remote -u
 
 # Moviemode
-bindsym $sup+shift+m floating toggle; move position 960 px 20 px; resize set 640 px 360 px; sticky toggle
+bindsym $sup+shift+m floating toggle; move position 960 px 15 px; resize set 640 px 360 px; sticky toggle
 
 # Netflix
 bindsym $sup+m exec google-chrome-stable --app=https://netflix.com
