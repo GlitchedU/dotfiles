@@ -34,7 +34,7 @@ function cs () {
 PS1='[\u@\h \W]\$ '
 
 # cowsay give what is of random command when opening terminal
-whatis $(ls /bin | shuf -n 1) | cowsay
+#whatis $(ls /bin | shuf -n 1) | cowsay
 
 # used for the Superman vim plugin to allow vim to view man pages with 'vman'
 vman() {
