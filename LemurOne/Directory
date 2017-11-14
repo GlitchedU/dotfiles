@@ -1,0 +1,8 @@
+.bash_profile           <- ~/.bash_profile
+.bashrc                 <- ~/.bashrc
+i3/                     <- ~/.config/i3/
+.i3blocks.conf          <- ~/.i3blocks.conf
+rofi/                   <- ~/.config/rofi/
+termite/                <- ~/.config/termite/
+tilda/                  <- ~/.config/tilda/
+xorg.conf.d/            <- /etc/X11/xorg.conf.d/
