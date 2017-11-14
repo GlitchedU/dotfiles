@@ -9,7 +9,6 @@
 alias ls='ls --color=auto'
 alias ll='ls -lh --color=auto'
 alias la='ls -Alh --color=auto'
-alias clear='clear; cow?'
 alias c='clear'
 alias ac='cd ~; clear;'
 alias rc='command clear'
