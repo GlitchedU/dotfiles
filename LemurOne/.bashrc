@@ -11,8 +11,6 @@ alias ll='ls -lh --color=auto'
 alias la='ls -Alh --color=auto'
 alias c='clear'
 alias ac='cd ~; clear;'
-alias rc='command clear'
-alias rac='cd ~; command clear'
 # cowsay whatis random command
 alias cow?='whatis $(ls /bin | shuf -n 1) | cowsay'
 # stream animated text star wars
