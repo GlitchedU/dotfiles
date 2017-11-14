@@ -23,6 +23,7 @@ alias mman='command man'
 alias archey='archey3'
 alias python='python2'
 alias chess='python3 ~/Games/cl-chess/main.py'
+alias wer='poweroff'
 
 # cd then ls function/alias
 function cs () {
