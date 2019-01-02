@@ -245,9 +245,9 @@ bindsym XF86AudioRaiseVolume exec pactl set-sink-mute 0 false; exec pactl set-si
 
 #  --Brightness--
 # Raise
-bindsym XF86MonBrightnessUp exec xbacklight -inc 5
+bindsym XF86MonBrightnessUp exec xbacklight -inc 2
 # Lower
-bindsym XF86MonBrightnessDown exec xbacklight -dec 5
+bindsym XF86MonBrightnessDown exec xbacklight -dec 2
 
 # Cmus pause/play
 bindsym XF86AudioPlay exec cmus-remote -u
