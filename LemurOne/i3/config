@@ -240,10 +240,10 @@ for_window [class="Google-chrome"] border pixel 0
 bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle; exec pkill -RTMIN+1 i3blocks; exec notify-send "/" -t 100
 # Lower
 bindsym XF86AudioLowerVolume exec pactl set-sink-mute 0 false; exec pactl set-sink-volume 0 -2%; exec pkill -RTMIN+1 i3blocks; exec notify-send "-" -t 100
-bindsym $mod+Control+comma exec pactl set-sink-mute 0 false; exec pactl set-sink-volume 0 -2%; exec pkill -RTMIN+1 i3blocks; exec notify-send "-" -t 100
+bindsym $mod+Shift+comma exec pactl set-sink-mute 0 false; exec pactl set-sink-volume 0 -2%; exec pkill -RTMIN+1 i3blocks; exec notify-send "-" -t 100
 # Raise
 bindsym XF86AudioRaiseVolume exec pactl set-sink-mute 0 false; exec pactl set-sink-volume 0 +2%; exec pkill -RTMIN+1 i3blocks; exec notify-send "+" -t 100
-bindsym $mod+Control+period exec pactl set-sink-mute 0 false; exec pactl set-sink-volume 0 +2%; exec pkill -RTMIN+1 i3blocks; exec notify-send "+" -t 100
+bindsym $mod+Shift+period exec pactl set-sink-mute 0 false; exec pactl set-sink-volume 0 +2%; exec pkill -RTMIN+1 i3blocks; exec notify-send "+" -t 100
 
 #  --Brightness--
 # Lower
