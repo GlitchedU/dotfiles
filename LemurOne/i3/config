@@ -253,7 +253,7 @@ bindsym $mod+Shift+comma exec xbacklight -dec 0.5
 bindsym XF86MonBrightnessUp exec xbacklight -inc 0.5
 bindsym $mod+Shift+period exec xbacklight -inc 0.5
 # Redshift - Blue Light Filter
-bindsym $mod+Shift+slash exec redshift -P -O 3000 -b 0.8
+bindsym $mod+Shift+slash exec redshift -P -O 2400 -b 0.8
 bindsym $mod+Shift+apostrophe exec redshift -x
 
 # Cmus pause/play
