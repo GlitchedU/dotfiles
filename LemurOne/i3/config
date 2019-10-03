@@ -248,10 +248,12 @@ bindsym $mod+Control+period exec pactl set-sink-mute 0 false; exec pactl set-sin
 #  --Brightness--
 # Lower
 bindsym XF86MonBrightnessDown exec xbacklight -dec 0.5
-bindsym $mod+Control+Shift+comma exec xbacklight -dec 0.5
+bindsym $mod+Shift+comma exec xbacklight -dec 0.5
 # Raise
 bindsym XF86MonBrightnessUp exec xbacklight -inc 0.5
-bindsym $mod+Control+Shift+period exec xbacklight -inc 0.5
+bindsym $mod+Shift+period exec xbacklight -inc 0.5
+# Redshift - Blue Light Filter
+bindsym $mod+Shift+slash exec redshift -P -O 3000
 
 # Cmus pause/play
 bindsym XF86AudioPlay exec cmus-remote -u
